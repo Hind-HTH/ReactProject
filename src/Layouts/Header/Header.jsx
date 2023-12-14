@@ -6,8 +6,8 @@ const Header = () => {
     <div>
       <header className={styles.header}>
         <NavLink to='/'>Accueil</NavLink>
+        <NavLink to='connexion'>Connexion</NavLink>
         <NavLink to='list-jeux'>Liste jeux</NavLink>
-        <NavLink to='connexion'>connexion</NavLink>
       </header>
     </div>
   );
