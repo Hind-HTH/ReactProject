@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <div>
       <header className={styles.header}>
-        <NavLink to='/'>home</NavLink>
+        <NavLink to='/'>Accueil</NavLink>
+        <NavLink to='list-jeux'>Liste jeux</NavLink>
+        <NavLink to='connexion'>connexion</NavLink>
       </header>
     </div>
   );
