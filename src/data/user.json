@@ -38,34 +38,46 @@
     ],
     "games":[
       {
-        "id":"game1",
+        "id":"1",
         "title":"Call Of Duty",
-        "description":"Call of Duty est une franchise de jeux de tir à la première personne (FPS) qui a débuté en 2003. Développée par différentes entreprises telles que Infinity Ward et Treyarch, la série se distingue par son réalisme, son action intense et ses scénarios de guerre variés. Chaque jeu de la série propose une campagne solo immersive ainsi que des modes multijoueurs compétitifs, offrant aux joueurs l'expérience de combats militaires intenses à travers différentes époques historiques et futuristes. La franchise Call of Duty est célèbre pour son impact sur l'industrie du jeu vidéo et reste l'une des séries les plus populaires au monde."
+        "description":"Call of Duty est une franchise de jeux de tir à la première personne (FPS) qui a débuté en 2003. Développée par différentes entreprises telles que Infinity Ward et Treyarch, la série se distingue par son réalisme, son action intense et ses scénarios de guerre variés. Chaque jeu de la série propose une campagne solo immersive ainsi que des modes multijoueurs compétitifs, offrant aux joueurs l'expérience de combats militaires intenses à travers différentes époques historiques et futuristes. La franchise Call of Duty est célèbre pour son impact sur l'industrie du jeu vidéo et reste l'une des séries les plus populaires au monde.",
+        "url" : "/img/cod.jpg",
+        "logo" : "/img/logo_cod.png"
       },
       {
-        "id":"game2",
+        "id":"2",
         "title":"Valorant",
-        "description":"Valorant est un jeu de tir tactique à la première personne (FPS) développé et édité par Riot Games. Lancé en 2020, le jeu met en scène deux équipes de cinq joueurs chacune, incarnant des agents dotés de compétences spéciales. L'objectif principal est de remporter des rounds en accomplissant des missions telles que la pose ou la désamorçage de bombes. La caractéristique distincte de Valorant réside dans l'aspect stratégique, où la coordination des compétences des agents est essentielle. Avec des mécaniques de tir précises, des graphismes stylisés et une forte composante compétitive, Valorant a rapidement gagné en popularité dans la scène des jeux de tir en ligne."
+        "description":"Valorant est un jeu de tir tactique à la première personne (FPS) développé et édité par Riot Games. Lancé en 2020, le jeu met en scène deux équipes de cinq joueurs chacune, incarnant des agents dotés de compétences spéciales. L'objectif principal est de remporter des rounds en accomplissant des missions telles que la pose ou la désamorçage de bombes. La caractéristique distincte de Valorant réside dans l'aspect stratégique, où la coordination des compétences des agents est essentielle. Avec des mécaniques de tir précises, des graphismes stylisés et une forte composante compétitive, Valorant a rapidement gagné en popularité dans la scène des jeux de tir en ligne.",
+        "url": "/img/valo.png",
+        "logo" : "/img/logo_valo.png"
       },
       {
-        "id":"game3",
+        "id":"3",
         "title":"Fortnite",
-        "description":"Fortnite est un jeu de bataille royale développé par Epic Games. Dans ce jeu en ligne multijoueur, 100 joueurs sont parachutés sur une île, où ils doivent chercher des armes, construire des structures et éliminer les autres joueurs pour être le dernier survivant. Le jeu est également connu pour ses éléments de personnalisation tels que les skins et les danses, ainsi que pour ses événements en jeu massifs. Fortnite a connu un immense succès et est devenu un phénomène culturel mondial depuis son lancement en 2017."
+        "description":"Fortnite est un jeu de bataille royale développé par Epic Games. Dans ce jeu en ligne multijoueur, 100 joueurs sont parachutés sur une île, où ils doivent chercher des armes, construire des structures et éliminer les autres joueurs pour être le dernier survivant. Le jeu est également connu pour ses éléments de personnalisation tels que les skins et les danses, ainsi que pour ses événements en jeu massifs. Fortnite a connu un immense succès et est devenu un phénomène culturel mondial depuis son lancement en 2017.",
+        "url" : "/img/fortnite.jpg",
+        "logo" : "/img/logo_fortnite.webp"
       },
       {
-        "id":"game4",
+        "id":"4",
         "title":"Doom",
-        "description":"Doom est un jeu vidéo de tir à la première personne (FPS) légendaire qui a révolutionné le genre. Développé par id Software et initialement sorti en 1993, Doom met les joueurs dans la peau d'un space marine qui doit affronter des hordes de démons et de monstres provenant de l'enfer. Le jeu est célèbre pour son action frénétique, ses niveaux labyrinthiques, ses armes emblématiques, et son atmosphère sombre et oppressante. Doom a contribué à établir les normes du genre FPS et a été acclamé pour sa violence graphique, son design de niveau novateur et sa bande-son metal caractéristique. Au fil des années, la franchise Doom a connu plusieurs itérations, restant un pilier de la culture des jeux vidéo."
+        "description":"Doom est un jeu vidéo de tir à la première personne (FPS) légendaire qui a révolutionné le genre. Développé par id Software et initialement sorti en 1993, Doom met les joueurs dans la peau d'un space marine qui doit affronter des hordes de démons et de monstres provenant de l'enfer. Le jeu est célèbre pour son action frénétique, ses niveaux labyrinthiques, ses armes emblématiques, et son atmosphère sombre et oppressante. Doom a contribué à établir les normes du genre FPS et a été acclamé pour sa violence graphique, son design de niveau novateur et sa bande-son metal caractéristique. Au fil des années, la franchise Doom a connu plusieurs itérations, restant un pilier de la culture des jeux vidéo.",
+        "url" : "/img/doom.jpg",
+        "logo" : "/img/Doom_logo.png"
       },
       {
-        "id":"game5",
+        "id":"5",
         "title":"League Of Legende",
-        "description":"League of Legends (LoL) est un jeu en ligne multijoueur de type arène de bataille en ligne (MOBA) développé par Riot Games. Dans ce jeu, deux équipes de champions uniques s'affrontent pour détruire la base adverse, appelée le Nexus. Chaque joueur contrôle un champion doté de compétences spécifiques, et l'équipe qui coordonne le mieux ses actions remporte la victoire. League of Legends est réputé pour son immense roster de champions, sa stratégie profonde, ses mises à jour régulières et son engagement continu envers l'e-sport, en faisant l'un des jeux les plus populaires au monde."
+        "description":"League of Legends (LoL) est un jeu en ligne multijoueur de type arène de bataille en ligne (MOBA) développé par Riot Games. Dans ce jeu, deux équipes de champions uniques s'affrontent pour détruire la base adverse, appelée le Nexus. Chaque joueur contrôle un champion doté de compétences spécifiques, et l'équipe qui coordonne le mieux ses actions remporte la victoire. League of Legends est réputé pour son immense roster de champions, sa stratégie profonde, ses mises à jour régulières et son engagement continu envers l'e-sport, en faisant l'un des jeux les plus populaires au monde.",
+        "url" : "/img/league.jpeg",
+        "logo" : "/img/logo_lol.png"
       },
       {
-        "id":"game6",
+        "id":"6",
         "title":"Street Fighter",
-        "description":"Street Fighter est un jeu de combat emblématique qui a marqué l'histoire du jeu vidéo. Développé par Capcom, il met en scène des combattants du monde entier qui s'affrontent dans des tournois de combat en un contre un. Chaque personnage a des compétences de combat uniques et des mouvements spéciaux, offrant une variété de styles de jeu. Street Fighter a été salué pour ses graphismes novateurs, sa musique emblématique et son gameplay compétitif. Le jeu a évolué au fil des ans avec de nombreuses itérations, devenant une franchise majeure dans le monde des jeux de combat. Street Fighter a laissé une empreinte indélébile dans la culture du jeu vidéo et continue d'inspirer de nouveaux titres et de passionner les fans du monde entier."
+        "description":"Street Fighter est un jeu de combat emblématique qui a marqué l'histoire du jeu vidéo. Développé par Capcom, il met en scène des combattants du monde entier qui s'affrontent dans des tournois de combat en un contre un. Chaque personnage a des compétences de combat uniques et des mouvements spéciaux, offrant une variété de styles de jeu. Street Fighter a été salué pour ses graphismes novateurs, sa musique emblématique et son gameplay compétitif. Le jeu a évolué au fil des ans avec de nombreuses itérations, devenant une franchise majeure dans le monde des jeux de combat. Street Fighter a laissé une empreinte indélébile dans la culture du jeu vidéo et continue d'inspirer de nouveaux titres et de passionner les fans du monde entier.",
+        "url": "/img/st.jpg",
+        "logo" : "/img/st_logo.png"
       }
 
 

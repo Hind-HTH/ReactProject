@@ -1,6 +1,7 @@
 import { lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import App from './App';
+import FormGame from "./pages/ListGamePage/FormGame";
 
 const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
 const ListesJeuxPage = lazy(() => import('./pages/ListesJeuxPage/ListesJeuxPage'));
@@ -28,6 +29,11 @@ export const router = createBrowserRouter([
         path: 'list-jeux',
         element: <ListesJeuxPage />,
       },
+
+      {
+        path: 'formGame/:id',
+        element: <FormGame />
+      }
 
     ],
   },

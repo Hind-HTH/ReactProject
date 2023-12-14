@@ -1,0 +1,47 @@
+.grid{
+    display: grid;
+    grid-template: auto / 1fr 1fr  ;
+    gap: 1rem;
+    padding-top: 100px;
+}
+
+.title{
+    text-align: center;
+    width: 200px;
+    
+    
+}
+
+.item{
+    width: 500px;
+    line-height: 4;
+    padding-left: 30px;
+}
+
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(14, 6, 76);
+    
+}
+
+.content {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+p{
+    text-align: justify;
+    margin-top: 10px;
+    height: max-content;
+    color: white;
+    
+    
+}
+
+h1{
+    text-align: center;
+}
+
