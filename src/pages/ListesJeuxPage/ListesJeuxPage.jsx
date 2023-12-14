@@ -1,11 +1,13 @@
 import React from 'react'
-import GameList from '../ListGamePage/gameList'
+import GameList from '../ListGamePage/gameList.jsx'
 
-export default function ListesJeuxPage() {
+const ListesJeuxPage =() => {
   return (
     <div>
       
       <GameList />
+
     </div>
   )
 }
+export default ListesJeuxPage;
