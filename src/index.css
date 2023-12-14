@@ -2,3 +2,20 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background: #ddd;
+  font-family: 'Roboto';
+}
+
+.flex {
+  display: flex;
+}
+
+.justity-between {
+  justify-content: space-between;
+}
+
+.my-5 {
+  margin: 5px 0px;
+}

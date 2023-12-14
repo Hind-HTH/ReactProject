@@ -1,0 +1,12 @@
+.jeuContainer {
+  overflow: hidden;
+  border-radius: 10px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.jeuContainer img {
+  transition: 1s transform;
+  width: 300px;
+  height: 300px;
+}
