@@ -1,7 +1,10 @@
 import React from 'react'
+import Connexion from '../Connexion'
 
 export default function HomePage() {
   return (
-    <div></div>
+    <div>
+      <Connexion />
+    </div>
   )
 }
