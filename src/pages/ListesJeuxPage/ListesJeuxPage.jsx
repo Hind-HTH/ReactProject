@@ -1,10 +1,10 @@
 import React from 'react'
-import GameList from '../ListGamePage/gameList.jsx'
+import GameList from '../ListGamePage/gameList'
+import styles from './ListesJeuxPage.module.css'
 
 const ListesJeuxPage =() => {
   return (
-    <div>
-
+    <div className={styles.container}>
       <GameList />
 
     </div>
