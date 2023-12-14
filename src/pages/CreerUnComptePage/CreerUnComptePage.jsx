@@ -3,7 +3,7 @@ import React from 'react'
 export default function CreerUnComptePage() {
   return (
     <div>
-      <h1>compte</h1>
+      <h1>Compte</h1>
     </div>
   )
 }
