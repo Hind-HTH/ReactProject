@@ -5,6 +5,7 @@ import App from './App';
 const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
 const ListesJeuxPage = lazy(() => import('./pages/ListesJeuxPage/ListesJeuxPage'));
 const ConnexionPage = lazy(() => import('./pages/ConnexionPage/ConnexionPage'));
+const CreerUnComptePage = lazy(() => import('./pages/CreerUnComptePage/CreerUnComptePage'));
 
 export const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ export const router = createBrowserRouter([
       {
         path: 'connexion',
         element: <ConnexionPage />,
+      },
+      {
+        path: 'create-account',
+        element: <CreerUnComptePage />,
       },
       {
         path: 'list-jeux',

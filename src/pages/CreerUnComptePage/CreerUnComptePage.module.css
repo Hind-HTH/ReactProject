@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formCrontroller input {
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  background: #ddd;
+  outline: none;
+  border: none;
+  width: 300px
+}
+
+;
+
+.title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  background: #2980b9;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+}
