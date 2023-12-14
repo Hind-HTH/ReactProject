@@ -1,38 +1,26 @@
 .grid{
     display: grid;
-    grid-template: auto / 1fr 1fr 1fr 1fr;
+    grid-template: auto / 1fr 1fr 1fr ;
     gap: 1rem;
+    padding-top: 100px;
 }
 
 .item{
+    width: 500px;
+}
+
+.item:hover{
+    color: #4579b5;
+
     
 }
 
 
 
-/* body {
+body {
     font-family: Copperplate;
     background-color: #f4f4f4;
     margin: 0;
-}
-
-center {
-    text-align: center;
-}
-
-h1 {
-    color: #6ca4d5;
-}
-
-table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-}
-
-td {
-    padding: 10px;
-    text-align: center;
 }
 
 img {
@@ -50,4 +38,4 @@ a {
 
 a:hover {
     color: #2d2865;
-} */
+} 

@@ -4,12 +4,13 @@ import styles from './GameList.module.css'
 export default function GameList() {
 
     return <div class={ styles.grid }>
-        <div class={ styles.item }><a href="#"><img src="/img/cod.jpg" width="150px"/></a></div>
-        <div class={ styles.item }><a href="#"><img src="/img/valo.png" width="150px" /></a></div>
-        <div class={ styles.item }><a href="#"><img src="img/fortnite.webp" width="150px"/></a></div>
-        <div class={ styles.item }><a href="#"><img src="/img/doom.jpg" width="150px"/></a></div>
-        <div class={ styles.item }><a href="#"><img src="img/lol.jpg" width="150px"/></a></div>
-        <div class={ styles.item }><a href="#"><img src="img/st.jpg" width="150px"/></a></div>
+        
+        <div class={ styles.item }><a href="#"><img src="/img/cod.jpg"/></a></div>
+        <div class={ styles.item }><a href="#"><img src="/img/valo.png"  /></a></div>
+        <div class={ styles.item }><a href="#"><img src="img/fortnite.jpg" /></a></div>
+        <div class={ styles.item }><a href="#"><img src="/img/doom.jpg"/></a></div>
+        <div class={ styles.item }><a href="#"><img src="img/league.jpeg" /></a></div>
+        <div class={ styles.item }><a href="#"><img src="img/st.jpg" /></a></div>
     </div>
 
 //   return <center> <table>
