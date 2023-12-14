@@ -4,7 +4,7 @@ import styles from './GameList.module.css'
 export default function GameList() {
 
     return <div class={ styles.grid }>
-         
+        <p>Hello</p>
         <div class={ styles.item }><a href="#"><img src="/img/cod.jpg"/></a></div>
         <div class={ styles.item }><a href="#"><img src="/img/valo.png"  /></a></div>
         <div class={ styles.item }><a href="#"><img src="img/fortnite.jpg" /></a></div>
