@@ -1,4 +1,114 @@
 {
+<<<<<<< HEAD
+  "users": [
+    {
+      "id": "1",
+      "email": "user1@gmail.com",
+      "password": "azerty"
+    },
+    {
+      "id": "2",
+      "email": "user2@gmail.com",
+      "password": "azerty2"
+    },
+    {
+      "id": "3",
+      "email": "user3@gmail.com",
+      "password": "azerty3"
+    },
+    {
+      "email": "user@hotmail.com",
+      "password": "1234",
+      "id": "i_A5wN_"
+    },
+    {
+      "email": "user@hotmail.com",
+      "password": "1234",
+      "id": "GL9Z-W7"
+    },
+    {
+      "email": "tttt",
+      "mdp": "ttt",
+      "id": "hWNeqNp"
+    },
+    {
+      "email": "tttt",
+      "mdp": "ttt",
+      "id": "9sPs--d"
+    },
+    {
+      "email": "h.toutaoui96@gmail.com",
+      "mdp": "test",
+      "id": "9MDglfK"
+    },
+    {
+      "email": "h.toutaoui96@gmail.com",
+      "mdp": "hind",
+      "id": "ODIzs96"
+    },
+    {
+      "email": "h.toutaoui96@gmail.com",
+      "mdp": "hind",
+      "id": "wL2r7ju"
+    },
+    {
+      "email": "h.toutaou@gmail.com",
+      "mdp": "aasasx",
+      "id": "8hgqx5p"
+    },
+    {
+      "email": "h.toutaou@gmail.com",
+      "mdp": "aasasx",
+      "id": "9-i3f9s"
+    },
+    {
+      "email": "h.toutaou@gmail.com",
+      "mdp": "aasasx",
+      "id": "w5-1hi9"
+    },
+    {
+      "email": "h.toutaou@gmail.com",
+      "mdp": "aasasx",
+      "id": "rR_gKxk"
+    },
+    {
+      "email": "h.toutaou@gmail.com",
+      "mdp": "aasasx",
+      "id": "SDaJr6X"
+    },
+    {
+      "email": "h.toutaou@gmail.com",
+      "mdp": "aasasx",
+      "id": "eH7c7Um"
+    },
+    {
+      "email": "h.toutaoui96@gmail.com",
+      "mdp": "dscvdsv",
+      "id": "xTZdg4c"
+    },
+    {
+      "email": "h.toutaoui96@gmail.com",
+      "mdp": "dscvdsv",
+      "id": "T8sVCOx"
+    },
+    {
+      "email": "h.toutaoui96@gmail.com",
+      "mdp": "test",
+      "id": "iJXBaIT"
+    },
+    {
+      "email": "user1@gmail.com",
+      "mdp": "azerty",
+      "id": "yakrbb5"
+    },
+    {
+      "email": "user1@gmail.com",
+      "mdp": "azerty",
+      "id": "7_Gn9Qu"
+    }
+  ]
+}
+=======
     "users": [
       {
         "id": "1",
@@ -83,3 +193,4 @@
 
     ]
   }
+>>>>>>> 15eccbab10eb9711cce33c0cebd29041adf4be60

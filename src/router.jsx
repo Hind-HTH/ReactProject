@@ -2,6 +2,8 @@ import { lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import App from './App';
 import FormGame from "./pages/ListGamePage/FormGame";
+import Connexion from "./pages/Connexion";
+import Inscription from "./pages/Inscription";
 
 const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
 const ListesJeuxPage = lazy(() => import('./pages/ListesJeuxPage/ListesJeuxPage'));
@@ -14,16 +16,16 @@ export const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        index: true,
+        path: '',
         element: <HomePage />,
       },
       {
         path: 'connexion',
-        element: <ConnexionPage />,
+        element: <Connexion />,
       },
       {
-        path: 'create-account',
-        element: <CreerUnComptePage />,
+        path: 'inscription',
+        element: <Inscription />,
       },
       {
         path: 'list-jeux',
