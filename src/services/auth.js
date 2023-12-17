@@ -41,7 +41,6 @@ export const login = async ({ email, password }) => {
         if (user && await bcrypt.compare(password, user?.password)) {
             localStorage.setItem("token", user.id);
             localStorage.setItem("currentUser", { id: user.id, email: user.email });
-            console.log("token", localStorage.getItem("token"));
             return user
         } else {
             throw new Error("Mauvais email/password");
