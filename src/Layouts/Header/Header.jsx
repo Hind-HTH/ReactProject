@@ -1,18 +1,22 @@
 import { NavLink } from 'react-router-dom';
 import styles from './Header.module.css'
+// import { logout } from '../../services/auth';
+import { useContext } from 'react';
+import { AuthContext } from '../../context';
 
 const Header = () => {
+
+  const { logout, user } = useContext(AuthContext)
+  const handleLogout = () => {
+    logout();
+  };
   return (
     <div>
       <header className={styles.header}>
         <NavLink to='/'>Accueil</NavLink>
-        <NavLink to='connexion'>Connexion</NavLink>
         <NavLink to='list-jeux'>Liste jeux</NavLink>
-<<<<<<< HEAD
-        <NavLink to='inscription'>creer un compte</NavLink>
-=======
-        <NavLink to='create-account'>Creer un compte</NavLink>
->>>>>>> 15eccbab10eb9711cce33c0cebd29041adf4be60
+        {user && <NavLink to='profile'>Profile</NavLink>}
+        {user && <NavLink onClick={handleLogout}>Deconnexion</NavLink>}
       </header>
     </div>
   );

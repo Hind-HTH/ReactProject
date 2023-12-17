@@ -22,16 +22,16 @@ export default function FormGame() {
 
   return (
     <div>
-        <center>
-      <div className={styles.title}><img src={game.logo}></img></div></center>
-      <div className={styles.grid}>
-        <div className={styles.item}>
-          <a href="#">
-            <div className={styles.content}><img src={game.url} alt={game.name} /></div>
-          </a>
-        </div>
-        <div className={styles.item}>
-          <p>{game.description}</p>
+      <div className={styles.cardDetail}>
+        <div className='flex justify-between'>
+          <img src={game.url} className={styles.img} alt={game.name} />
+          <div className={`${styles.descContainer} flex justify-center items-center p-20`}>
+            <div>
+              <h1 className='mb-30'>{game.title}</h1>
+              <h4 className='mb-30'>{game.description}</h4>
+              <button className={styles.btn}>S'inscrire </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

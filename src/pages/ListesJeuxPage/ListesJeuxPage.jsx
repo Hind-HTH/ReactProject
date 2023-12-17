@@ -2,7 +2,7 @@ import React from 'react'
 import GameList from '../ListGamePage/gameList'
 import styles from './ListesJeuxPage.module.css'
 
-const ListesJeuxPage =() => {
+const ListesJeuxPage = () => {
   return (
     <div className={styles.container}>
       <GameList />

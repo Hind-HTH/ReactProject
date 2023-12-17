@@ -2,11 +2,13 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
- 
+
 
 }
 
 .mainContent {
-  flex: 1
-  
+  display: flex;
+  flex: 1;
+  margin: 0px 100px;
+  flex-direction: column;
 }

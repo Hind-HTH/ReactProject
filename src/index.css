@@ -5,17 +5,73 @@
 
 body {
   background: #ddd;
-  font-family: 'Roboto';
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('../public//img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #fff;
 }
 
 .flex {
   display: flex;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
 .justity-between {
   justify-content: space-between;
 }
 
+.justity-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
 .my-5 {
   margin: 5px 0px;
+}
+
+.mx-5 {
+  margin: 0px 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.label-form {
+  margin: 0px 0px 2px 5px;
+  color: #fff;
+}
+
+.my-10 {
+  margin: 10px 0px;
+}
+
+.text-danger {
+  color: #eb4d4b;
+}
+
+.pointer {
+  cursor: pointer;
 }

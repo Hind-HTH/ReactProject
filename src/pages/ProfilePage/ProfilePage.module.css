@@ -1,0 +1,11 @@
+.cardDetail {
+  background: #1e272e;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 500px;
+  /* flex: 1 1 auto; */
+}
+
+p {
+  color: #fff;
+}

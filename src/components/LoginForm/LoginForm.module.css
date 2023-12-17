@@ -1,23 +1,22 @@
 .container {
   display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  min-width: 100vh;
 }
 
 .card {
-  background: #fff;
-  padding: 20px;
+  background: #1e272e;
   border-radius: 10px;
 }
 
 .formContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
-.formCrontroller input {
+input {
   padding: 10px;
   border-radius: 5px;
   margin-left: 5px;
@@ -25,20 +24,21 @@
   background: #ddd;
   outline: none;
   border: none;
-  width: 300px
 }
 
 ;
 
 .title {
-  text-align: center;
-  margin-bottom: 8px;
+  margin: 6px 0px;
+  color: #fff;
 }
 
-form {
+.form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  max-width: 500px;
+  flex: 1 1 auto;
+  padding: 20px;
 }
 
 .btn {
@@ -49,4 +49,10 @@ form {
   border: none;
   border-radius: 10px;
   color: #fff;
+  cursor: pointer;
+}
+
+span {
+  color: #fff;
+  font-size: 12px;
 }
